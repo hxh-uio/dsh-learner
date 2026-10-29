@@ -1,0 +1,30 @@
+{
+  "name": "dsh-learner",
+  "version": "1.0.0",
+  "description": "让 AI 角色通过周期性学习有论证、有出处的长文，理解人文关怀，并作为组成人格的基质，在世界上留下自己的足迹。",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxh-uio/dsh-learner.git"
+  },
+  "homepage": "https://hxh-uio.github.io/dsh-learner/",
+  "bugs": "https://github.com/hxh-uio/dsh-learner/issues",
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "agent",
+    "personality",
+    "autonomous-learning",
+    "long-form-reading",
+    "bilibili-readonly",
+    "ai-character"
+  ],
+  "dsh": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}
