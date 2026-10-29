@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+
+# 运行期生成（人格数据、卡片、基质、导出包）
+learner-state.json
+learner.config.json
+learner-cards.jsonl
+learner-substrate.jsonl
+learner-substrate.md
+learner-export-*/
+whale-work/
+
+# 日志 / 系统文件
+*.log
+.DS_Store
+Thumbs.db
