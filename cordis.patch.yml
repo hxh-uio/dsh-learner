@@ -1,0 +1,7 @@
+# DSH / cordis 补丁：把本插件注册进宿主配置树。
+# 说明：不同 DSH 版本的 cordis schema 可能略有差异。若本文件格式与你的宿主不符，
+# 请直接改用 README 中的「并入既有插件」方式（最稳，无需 cordis 补丁）。
+patches:
+  - insert:
+      id: dsh-learner
+      name: dsh-learner
